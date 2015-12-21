@@ -1,0 +1,191 @@
+<!DOCTYPE>
+
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="portfoliocss.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/fittext/1.2/jquery.fittext.js"></script>
+    </head>
+    <body>
+        <div class='jumbotron'>
+            <!--div with picture in background and navigation bar and welcome h2 tag-->
+            <div id='picturerow'> 
+                <!--this row is for navigation bar-->
+                <div class='row'>
+                  <div class='col-md-12'>
+                    <nav class='navbar navbar-default navbar-fixed-top' role='navigation'>
+                     <div class='container-fluid'>  
+                       <div class='col-md-12'>
+                         <div class='navbar-header'>
+                           <button type='button' id='togglebyhand' class='navbar-toggle'>
+                             <span class='icon-bar'></span>
+                             <span class='icon-bar'></span>
+                             <span class='icon-bar'></span>
+                           </button>
+                           <a class='navbar-brand' href='#'>BEREKET TAZ</a>
+                         </div>
+                         <div class='collapse navbar-collapse navbar-collapse' id='mainNavBar'>
+                           <ul class='nav navbar-nav navbar-right'>
+                             <li><a href='#'>HOME</a></li>
+                             <li><a href='#aboutid'>ABOUT ME</a></li>
+                             <li><a href='#divforskills'>SKILLS</a></li>
+                             <li><a href='#divforprojects'>PROJECTS</a></li>
+                             <li><a href='#contactrow'>CONTACT</a></li>
+                           </ul>
+                         </div>  
+                       </div>
+                     </div>     
+                   </nav>
+                  </div>
+                </div>              
+                <!--this row is for quotes in h2 tag-->
+                <div class='row'>
+                  <div class='col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1'>          
+                    <h2 class='text-center' id='quote'></<h2><br>
+                    <h3 class='text-center' id='author'></<h3> 
+                  </div>
+                </div>
+            </div>
+            <!--this is a section of page with id aboutid-->
+            <div  id='aboutid'>
+                <div class='row'>    
+                   <div class='col-md-12'>
+                     <h2 class='text-center' style='padding: 40px; font-weight: bold;'>About me</h2>
+                   </div>
+                </div>            
+                <hr>
+                <!--this row contains columns with #me picture and about me text-->
+                <div class='row aboutme'>
+                    <div class='container-fluid'>  
+                       <div class='col-md-4'>
+                            <h2><img src='http://s4.postimg.org/vye7es23h/image.jpg' class='img-responsive img-circle center-block' id='me'></h2>
+                       </div>
+                       <div class='col-md-8 aboutmetext'>
+                           <p class='text-center' id='aboutmepar'>I am highly motivated and eager for knowledge entry level web developer who is extremely interested in using the whole features 
+of web technology in fast growing IT sphere and bringing the most challenged ideas into the reality using creativity, collaboration 
+and knowledge.<br><br>I put my goal to reach the boundary of IT technology by being specific and devoting enormous time and effort 
+for learning it and always be one step ahead the technology, thus instead of being amazed by it but amaze people playing key role in 
+its development.<br><br>I am open and looking forward for almost all kind of offers: interns, startups, remote and office based jobs 
+and etc. Feel free to reach me at berekettaz@gmail.com, I will be very happy to any kind of offer in my interest.</p>
+                       </div>
+                    </div>  
+                </div>
+            </div>
+            <!--this is a section of page with id divforskills-->
+            <div id='divforskills'>
+                <div class='row'>    
+                   <div class='col-md-12'>
+                     <h2 class='text-center' style='padding: 40px; font-weight: bold;'>Skills</h2>
+                   </div>
+                </div>            
+                <hr>
+                <div class="row">
+                    <div class='container-fluid' id='divforcarousel'>
+                        <div class="containerdiv">
+                            <div id="carousel">
+                                <figure></figure>
+                                <figure></figure>
+                                <figure></figure>
+                                <figure></figure>
+                                <figure></figure>
+                                <figure></figure>
+                                <figure></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--this is a section of page with id divforprojects-->        
+            <div id='divforprojects'>
+                <div class='row'>    
+                   <div class='col-md-12'>
+                     <h2 class='text-center' style='padding: 40px; font-weight: bold;'>Projects</h2>
+                   </div>
+                </div>
+                <hr>
+                <div class='row'>    
+                       <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/localweather/" target="_blank">
+                            <div class='projinnerdiv' style="background-image: url(img/locweaththubnail.png);"></div>
+                           <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Local Weather project</span><br>Bootstrap, AngularJS and Weather API</p></div></a>
+                       </div>
+                       <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/catchduck/" target="_blank">
+                            <div class='projinnerdiv' style="background-image: url(img/catchduckthubnail.png);"></div>
+                            <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Catch Duck game</span><br>HTML, CSS and jQuery</p></div></a>
+                       </div>
+                       <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/campernews/" target="_blank">
+                            <div class='projinnerdiv' style="background-image: url(img/campernewsthubnail.png);"></div>
+                            <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Camper News project</span><br>Bootstrap, AngularJS and FreeCodeCamp API</p></div></a>
+                       </div>
+                </div>
+                <div class='row'>    
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/calculator/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/calculatorthubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Javascript Calculator</span><br>HTML, CSS and Javascript</p></div></a>
+                   </div>
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/checklist/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/checklistthubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Checklist joint project</span><br>HTML, CSS and jQuery</p></div></a>
+                   </div>
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/simon/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/simonthubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Simon game</span><br>HTML, CSS and AngularJS</p></div></a>
+                   </div>
+                </div>
+                <div class='row optionaldivs'>    
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/wikiviewer/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/wikiviewerthubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Wikipedia Viewer</span><br>Bootstrap, AngularJS and MediaWiki API</p></div></a>
+                   </div>
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/twitchapp/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/twitchappthubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Twitch.tv API project</span><br>CSS, AngularJS and Twitch.tv API</p></div></a> 
+                   </div>
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/tictactoe/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/tictactoethubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Tic Tac Toe game</span><br>HTML, Bootstrap and jQuery</p></div></a> 
+                   </div>
+                </div>
+                <div class='row optionaldivs'>    
+                   <div class='col-md-4 projouterdiv'><a href="http://bektaz.github.io/pomodoro/" target="_blank">
+                        <div class='projinnerdiv' style="background-image: url(img/pomodorothubnail.png);"></div>
+                        <div class='projusedtoolsdiv'><p class="parofprojects"><span class="spanofprojects">Pomodoro Timer</span><br>HTML, CSS and Javascript</p></div></a> 
+                   </div>
+                   </div>
+                </div>
+                <div class="row"><div class='col-md-11 text-center' id='morediv'><button class="btn btn-primary mb">&nbsp;&nbsp;more...&nbsp;&nbsp;</button></div></div>
+            </div>
+            <!--row for contact was put in container fluid, otherwise it overstepped from jumbotron parent element on right side-->
+            <div class='container-fluid'>
+                <!--contact row contains of 3 rows: one for contact word in h3 tag, next rowfor buttons and 3rd row for rights message in h5 tag-->
+                <div class='row' id='contactrow'>
+                <div class='row'>    
+                    <div class='col-md-12'>
+                        <h2 class='text-center' style='padding: 40px; font-weight: bold;'>Contact</h2>
+                    </div>
+                </div>
+                  <div class='row'>    
+                     <div class='col-md-12'>
+                       <div id='divforbuttons'>
+                         <a href='https://kz.linkedin.com/pub/bereket-yeleussinov/63/737/b14' target='_blank'><button class='btn btn-default'><i class="fa fa-linkedin-square"></i> LinkedIn</button></a>
+                         <a href='https://github.com/Bektaz' target='_blank'><button class='btn btn-default'><i class="fa fa-github-square"></i> GitHub</button></a>
+                         <a href='https://twitter.com/berekettaz' target='_blank'><button class='btn btn-default' href='#' target='_blank'><i class="fa fa-twitter"></i> Twitter</button></a>
+                         <a href='http://www.freecodecamp.com/bektaz' target='_blank'><button class='btn btn-default' href='#' target='_blank'><i class="fa fa-fire"></i> freeCodeCamp</button></a>
+                       </div>  
+                     </div>
+                  </div>
+                  <div class='row'>    
+                     <div class='col-md-12'>
+                       <h5 class='text-center'>&copy; 2015 Bereket Taz. All rights reserved.</h5>
+                     </div>
+                  </div>
+                </div>
+            </div>  
+        </div>
+    <script type="text/javascript" src="portfoliojs.js"></script>
+    </body>
+</html>
